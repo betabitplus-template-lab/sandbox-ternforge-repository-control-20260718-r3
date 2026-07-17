@@ -71,5 +71,6 @@ resource "github_repository_ruleset" "tags" {
   rules {
     deletion         = true
     non_fast_forward = true
+    update           = true
   }
 }
